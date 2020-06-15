@@ -2909,11 +2909,13 @@ button:disabled,
 }
 
 .aboutMePicBox {
-  display: flex;
+  display: inline-block;
   margin: auto;
   max-width: 90%;
   border: black 4px solid;
   max-height: 35rem;
+  flex-direction: column;
+  align-self: top;
 }
 
 .wrapper.style1 strong,
@@ -4336,9 +4338,8 @@ img {
 
 .projectImageDiv {
 	display: flex;
-    margin: auto;
+  margin: auto;
 	max-width: 60%;
-	border: black 4px solid;
 }
 
 .projectInfoSection {
@@ -4371,4 +4372,13 @@ strong {
 
 .contactMeIcons {
   list-style-type: ;
+}
+
+.aboutProjectPicBox {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  max-height: 20rem;
+  align-self: top;
 }
